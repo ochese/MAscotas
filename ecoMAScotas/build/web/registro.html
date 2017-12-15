@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html style="background:url( imagenes/fondoRegistro.jpg)">
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="estilos-for.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+</head>
+<body>  <!-- <div class="contenedor"> -->
+<div class ="container well">
+            <div class="panel  panel-formulario">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center"><strong>Registro</strong> </h3>
+            </div>
+            <div class="panel-body ">
+                
+              <form  class="form-horizontal" method="POST" action="añadir_usuario.jsp">
+				           <div class="form-group-sm">
+                        <label>Nombres</label>
+                        <input type="text" name="nombres" class="form-control"  required>
+                   </div>
+                   <div class="form-group-sm">
+                        <label>Apellidos:</label>
+                        <input type="text" name="apellidos" class="form-control"  required>
+                   </div>
+
+                  <div class="form-group-sm">
+                        <label>DNI:</label>
+                        <input type="text" name="dni" class="form-control"  required>
+                   </div>
+
+                   <div class="form-group-sm">
+                        <label>Contraseña:</label>
+                        <input type="password" name="password" class="form-control"  required placeholder="Ingrese nueva contraseña">
+                   </div>
+
+                   <div class="form-group-sm">
+                        <label>Sexo</label><br>
+                        <label id="cbo"><input type="radio" name="sexo" />Masculino</label>&nbsp; &nbsp; &nbsp; &nbsp;
+						            <label id="cbo"><input type="radio" name="sexo" />Femenino</label>
+                  </div>
+                  <div class="form-group-sm">
+                        <label>Dirección</label>
+                        <textarea name="direccion" class="form-control" cols="30" rows="5" required></textarea>
+                   </div>                       
+                  <div class="form-group-sm">
+                        <label>Correo:</label>
+                        <input type="email" name="correo" class="form-control"  required placeholder="cuenta@ejemplo.com">
+                  </div>
+                  <div class="form-group-sm">
+                        <label>Teléfono:</label>
+                        <input type="number" name="telefono" min="999999" max="999999999" class="form-control"  required>
+                  </div>
+                  <div class="form-group-sm">
+                        <label>Celular:</label>
+                        <input type="number" name="celular" min="999999" max="999999999" class="form-control"  required>
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-success btn-block  btn-lg"><i class="fa fa-check"></i> Enviar formulario</button>
+                  
+                  
+                </form>
+                <br>
+            </div>
+      </div>
+ </div>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

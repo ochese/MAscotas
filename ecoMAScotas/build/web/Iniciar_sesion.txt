@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ecoMAScotas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://bootswatch.com/sandstone/bootstrap.min.css" type="text/css"/>
+        
+        <style>
+            
+         
+						* {
+							margin: 0; 
+							padding: 0;
+						}
+						body {
+							background: #C5C8B0; 
+							font-family: arial, verdana, tahoma;
+							padding-top: 200px;
+			  				padding-bottom: 100px;
+						}
+						
+
+
+
+						.accordian {
+							width: 805px; height: 360px;
+							overflow: hidden;
+							
+							/*Time for some styling*/
+							margin: 100px auto;
+							box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+							-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+							-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+						}
+
+						#sha{
+							width: 500px;
+							
+						    -webkit-box-shadow: 0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+						    -moz-box-shadow:    0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+						    box-shadow:         0px 0px 18px 0px rgba(48, 50, 50, 0.48);
+						    border-radius: 6%;
+				  		}
+
+				  		#avatar{
+							width: 96px;
+							height: 96px;
+							margin: 0px auto 10px;
+							display: block;
+							border-radius: 50%;
+				 		} 
+				 		.Login {
+						  	max-width: 330px;
+						  	padding: 15px;
+						  	margin: 50 auto;
+				 
+						}
+
+
+						.accordian ul {
+							width: 2000px;
+							
+						}
+
+						.accordian li {
+							position: relative;
+							display: block;
+							width: 160px;
+							float: left;
+							
+							border-left: 1px solid #888;
+							
+							box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.5);
+							-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+							-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+							
+							
+							
+							-webkit-transition: all 0.5s;
+							-moz-transition: all 0.5s;
+							
+						}
+
+						
+						.accordian ul:hover li {width: 100px;}
+						
+						.accordian ul li:hover {width: 640px;}
+
+
+						.accordian li img {
+							display: block;
+						}
+
+						/*Image title styles*/
+						.image_title {
+							background: rgba(0, 0, 0, 0.9);
+							position: absolute;
+							left: 0; bottom: 0;	
+						width: 640px;	
+
+						}
+						.image_title a {
+							display: block;
+							color: #fff;
+							text-decoration: none;
+							padding: 20px;
+							font-size: 16px;
+						}
+            
+ 		</style>
+        
+
+        
+        
+        
+    </head>
+    <body>
+        
+        
+
+
+    	
+
+
+    	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			  <div class="container-fluid">
+			    	<div class="navbar-header">
+			    	 	<a class="navbar-brand" href="#">PROYECTO ECO+COTAS</a>
+
+			    	</div>
+			    	
+
+    		
+    		   </div>
+		</nav>
+
+		
+		<div class="container" >
+			
+
+			<div class="container " >
+
+				<div class="jumbotron">
+					<h1 align="center">ECO+COTAS</h1>
+					<div class="accordian ">
+					<ul>
+						<li>
+							<div class="image_title">
+								<a href="#">Gatos</a>
+							</div>
+							<a href="#">
+								<img src="http://2.bp.blogspot.com/-tRVirZ0L3SM/Vg3ELdm07SI/AAAAAAAADeQ/wb5NSHhHG5E/s1600/Octubre%2Bes%2Bun%2Bmes%2Bpara%2Bredoblar%2Batenci%25C3%25B3n%2Bcon%2Bnuestros%2Banimales%2B1.jpg"/>
+							</a>
+						</li>
+						<li>
+							<div class="image_title">
+								<a href="#">Perros</a>
+							</div>
+							<a href="#">
+								<img src="http://cancitos.com/wp-content/uploads/2015/06/Perros-peque%C3%B1os-de-raza-caniche.jpg"/>
+							</a>
+						</li>
+						<li>
+							<div class="image_title">
+								<a href="#">Hamnster</a>
+							</div>
+							<a href="#">
+								<img src="https://blog.pawedin.com/app/uploads/2016/03/large-hamster-eating.jpg"/>
+							</a>
+						</li>
+						<li>
+							<div class="image_title">
+								<a href="#">Aves</a>
+							</div>
+							<a href="#">
+								<img src="https://brightcove04pmdo-a.akamaihd.net/2385340627001/2385340627001_5035243055001_2483156350001-vs.jpg?pubId=2385340627001&videoId=2483156350001"/>
+							</a>
+						</li>
+						<li>
+							<div class="image_title">
+								<a href="#">Animales de granja</a>
+							</div>
+							<a href="#">
+								<img src="granja.PNG"/>
+							</a>
+						</li>
+					</ul>
+					</div>
+				</div>
+				
+
+			</div>
+
+					
+		</div>
+       
+			
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
